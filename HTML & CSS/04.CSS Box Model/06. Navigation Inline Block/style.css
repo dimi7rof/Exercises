@@ -1,0 +1,19 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+li {
+    list-style: none;
+    margin-left: 20px;
+}
+h1, nav, ul, li{
+    display: inline-block;
+}
+a:visited {
+    color: green;
+}
+a {
+    text-decoration: none;
+}
+header {
+    border-bottom: 2px solid gray;
+}

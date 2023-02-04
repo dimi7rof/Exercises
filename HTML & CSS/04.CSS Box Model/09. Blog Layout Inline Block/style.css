@@ -1,0 +1,16 @@
+article {
+    display: inline-block;
+    width: 740px;
+}
+aside {
+    display: inline-block;
+    width: 270px;
+    vertical-align: top;
+}
+img {
+    width: 535px;
+}
+body {
+     background-color: rgb(238, 238, 238);
+     color: rgb(51, 51, 51);
+}
