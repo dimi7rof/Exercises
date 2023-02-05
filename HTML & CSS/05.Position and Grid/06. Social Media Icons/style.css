@@ -1,0 +1,15 @@
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+ul li {
+    display: inline-block;
+    margin: 10px;
+    background-color: lightgrey;
+    padding: 12px 14px;
+}
+a {
+    border-radius: 50%;
+}
