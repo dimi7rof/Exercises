@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+body, ul, li {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul {
+    justify-content: space-between;
+    gap: 32px;
+}
+li {
+    width: 30%;
+    border: 4px solid black;
+    height: 400px;
+}
+img {
+    margin: auto;
+    padding: 12px;
+    max-width: 90%;
+    max-height: 90%;
+}

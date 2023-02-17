@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    padding: 0px 48px;
+}
+body>header {
+    display: flex;
+    height: 80px;
+    gap: 12px;
+    border-bottom: 2px solid rgb(0,0,0);
+    padding-bottom: 12px;
+    margin-bottom: 32px;
+}
+header p {
+    font-size: 32px;
+    margin-top: auto;
+    font-weight: bold;
+}
+header nav {
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    margin-right: 12px;
+    align-items: center;
+    display: flex;
+    color: green;
+}
+header nav ul li a{
+    color: rgb(0,153,0);
+}

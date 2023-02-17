@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    background-color: rgb(238,238,238);
+    width: 100vw;
+    height: 100vh;
+}
+.card {
+    background-color: rgb(255,255,255);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    width: 50%;
+}
+div {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+button {
+    position: absolute;
+    right: 0;
+    bottom: 15%;
+    margin: 20px 40px;
+    padding: 10px 20px;
+    background-color: rgb(0,153,0);
+    border: 1px solid gray;
+}
+.text {
+    position: relative;
+    top: 50%;
+    margin-left: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+h3{
+    font-family: Georgia, serif;
+    font-size: 1em;
+}
+p {
+    font-family: Georgia, serif;
+    font-size: 1.2;
+}
