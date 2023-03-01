@@ -141,21 +141,13 @@ function sameNumbers(num) {
         else {
             same = false;
             break;
-        }
-        
+        }        
     }
     console.log(same ? 'true' : 'false');
     console.log(sum);
 }
 
-sameNumbers(2222322);
-sameNumbers(222222);
-sameNumbers(2222922);
-
-
 // 11. Road Radar
-
-
 
 function roadRadar(speed, area) {
     let status = 'speeding';
@@ -217,7 +209,6 @@ function cooking(x, ...params){
         }
     console.log(num);
     }
-
 }
 
 // 13. Array Rotation
