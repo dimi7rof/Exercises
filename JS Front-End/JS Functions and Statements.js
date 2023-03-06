@@ -114,6 +114,13 @@ function nxnMatrix(number){
 }
 //nxnMatrix(7);
 
+// 07. NxN Matrix v2 
+
+function nxnMatrix2(num){
+    return new Array(num).fill(new Array(num).fill(num)).forEach(x => console.log(x.join(' ')));
+}
+//nxnMatrix2(9);
+
 // 08. Perfect Number
 
 function perfectNumber(number) {
