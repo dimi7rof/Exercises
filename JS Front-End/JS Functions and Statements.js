@@ -68,6 +68,15 @@ function palindromeIntegers(intArray) {
 //palindromeIntegers([123,323,421,121]);
 //palindromeIntegers([32,2,232,1010]);
 
+// 05. Palindrome Integers v2
+
+function palindromeInts(numbers) {
+    return numbers
+        .map((num) => Number([...num.toString()].reverse().join('')) === num)
+        .join('\n');
+}
+//console.log(palindromeInts([123,323,421,121]))
+
 // 06. Password Validator   85/100
 
 function passwordValidator(password) {
